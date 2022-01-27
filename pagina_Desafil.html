@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head id="cabecalho_Titulo">
+
+    <meta charset="UTF-8">
+    <title>Desafio Alura Criptografia </title>
+    <link rel="stylesheet" href="estilo_CSS/fonte_DesAlura.css">
+    <link rel="stylesheet" href="estilo_CSS/fundo_DesAlura.css">
+
+</head>
+
+<script src="javaCod/funcoes_DesAlura.js"></script>
+
+<body>
+
+    <div id="interface">
+
+        <header id="cabecalho">
+
+            <hgroup id="geral">
+
+                <h1> Desafio da Criptografia </h1>
+                <h2>Pagina criada para Challenge Oracle ONE da Alura. </h2>
+
+                <img id="icone" src="estilo_CSS/imagens/Oracle-logo.png">
+                <img id="icone_2" src="estilo_CSS/imagens/especial-logo-alura.png">
+
+                <fieldset id="msg">
+
+                    <legend id="palavrabox">
+                        Palavra para Manipular
+                    </legend>
+
+                    <p><label for="cMsg"> </label>
+                    <textarea name="tMsg" id="criptografar" cols="100" rows="5" placeholder="Informe palavra original ou encriptada"></textarea> </p>
+                    <hgroup id = botoesBox>
+                           
+                        <button onclick="ispalavra_Original()">Cripitografar</button>
+                        <button onclick="ispalavra_Encripitada()">Descriptografar</button>
+
+                    </hgroup>
+                   
+                </fieldset>
+
+                <fieldset id="msg">
+
+                    <legend id="respostabox">
+                        Resposta da Manipulação 
+                    </legend>
+
+                    <p><label for="cMsg"> </label>
+                    <textarea name="tMsg" id="respostas" cols="100" rows="5" placeholder="resultado da conversão " readonly="true"></textarea> </p>
+                                        
+                </fieldset>
+                               
+            </hgroup>    
+
+        </header>
+
+    </div>
+
+    <footer id="rodape">
+
+        <p>Copyright 2022 - by Jeferson Santos <br> 
+        <a href="https://www.linkedin.com/in/jeferson-santos-7085a68a/" target="_blank"> Linkedin</a>  | 
+        <a href="https://github.com/Jeffboy27" target="_blank">GitHub</a> </p>
+  
+        
+    </footer>
+</body>
+</html>
